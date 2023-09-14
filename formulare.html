@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulare in HTML</title>
+    </head>
+    <body>
+        <form>
+            <label for="firstname">Prenume</label>
+            <input type="text" id="firstname" name="firstname" /><br>
+            <label for="email">Adresa de email</label>
+            <input type="email" id="email" name="email">
+            <button type="submit">Trimite</button>   
+        </form>
+        <form>
+            <input type="number" min="1" max="10" step="1">
+        </form>     
+        <form>
+            <input type="datetime-local" />
+        </form>
+        <form>
+            <input type="color" />
+        </form>
+        <form>
+            <select id="variante" name="variante">
+                <option value="varianta1">Varianta 1</option>
+                <option value="varianta2">Varianta 2</option>
+                <option value="varianta3">Varianta 3</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>
+        <form>
+            <textarea name="Jack" id="" cols="50" rows="15"></textarea>
+        </form>
+        <form>
+            <input type="radio" name="luna" value="ianuarie" />Luna Ianuarie
+            <input type="radio" name="luna" value="februarie" />Luna Februarie
+            <input type="radio" name="luna" value="martie" />Luna Martie
+            <button type="submit">Trimite</button>
+        </form>
+        <form>
+            <input type="checkbox" name="zi_luni" value="luni" />Luni
+            <input type="checkbox" name="zi_marti" value="marti" />Marti
+            <input type="checkbox" name="zi_miercuri" value="miercuri" />Miercuri
+            <input type="checkbox" name="zi_joi" value="joi" />joi
+            <button type="submit">Trimite</button>
+        </form>
+        <br />    
+        <br />
+        <form>
+            <label for="fullname">Nume complet</label>
+            <input 
+                type="text" 
+                id="fullname" 
+                name="fullname" 
+                placeholder="Introduceti numele complet"
+                required
+                minlength="3"
+                maxlength="50"
+
+            />
+            <br />    
+            <label for="email">Adresa de email</label>
+            <input type="email" id="email" name="email" placeholder="Introduceti adresa de email"/> <br />
+            <label for="password">Parola</label>
+            <input 
+                type="password" 
+                id="password" 
+                name="password" 
+                placeholder="Introduceti parola" />
+                <br />
+            <label for="birthdate">Data nasterii</label>
+            <input type="date" id="birthdate" name="birthdate" required /><br />
+            <input type="checkbox" name="terms" required />Termeni si conditii<br />
+            <button type="submit">Inregistrare</button>
+
+
+
+        </form>
+    </body>
+</html>
