@@ -60,21 +60,25 @@
             />
             <br />    
             <label for="email">Adresa de email</label>
-            <input type="email" id="email" name="email" placeholder="Introduceti adresa de email"/> <br />
+            <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="Introduceti adresa de email"
+                required/> 
+                <br />
             <label for="password">Parola</label>
             <input 
                 type="password" 
                 id="password" 
                 name="password" 
-                placeholder="Introduceti parola" />
-                <br />
+                required
+                placeholder="Introduceti parola" /><br />
             <label for="birthdate">Data nasterii</label>
             <input type="date" id="birthdate" name="birthdate" required /><br />
             <input type="checkbox" name="terms" required />Termeni si conditii<br />
             <button type="submit">Inregistrare</button>
-
-
-
+            <button type="reset" >Resetare</button>
         </form>
     </body>
 </html>
